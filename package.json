@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-colored-folder",
-	"version": "0.12.0",
+	"version": "0.1.14",
 	"description": "Obsidian plugin that colors the folders and notes in the sidebar.",
 	"main": "main.js",
 	"scripts": {

@@ -15,7 +15,7 @@ if you want to view the source visit the plugins github repository
 const prod = (process.argv[2] === 'production');
 
 const doCopyFiles = function () {
-    const srcPath = "C:\\Users\\steph\\OneDrive\\Desktop\\OBSIDIAN-TEST\\obsidian-colored-folder";
+    const srcPath = "X:\\+++DEV\\MaptzGitHub\\obsidian\\obsidian-colored-folder\\";
     const destPath = "C:\\Users\\steph\\OneDrive\\Data\\NOTES_OBSIDIAN\\.obsidian\\plugins\\obsidian-colored-folder";
     if (!fs.existsSync(destPath)) {
         fs.mkdirSync(destPath);

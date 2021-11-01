@@ -31,6 +31,7 @@ export default class FolderColorSettingsTab extends PluginSettingTab {
             .addToggle((toggle) => {
                 toggle.setValue(this.plugin.getSettings().hierarchicalMode).onChange(async (val) => {
                     this.plugin.getSettings().hierarchicalMode = val;
+                    await this.plugin.saveFolderColorData();
                     this.plugin.handleChangeLayout();
                 });
             });

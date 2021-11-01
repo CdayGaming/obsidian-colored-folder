@@ -79,6 +79,10 @@ export default class FolderColorPlugin extends Plugin {
 		addColorsToDOM(this, data, this.registeredFileExplorers);
 	}
 
+	public save(): void {
+
+	}
+
 	//Called when the plugin is downloaded.
 	onunload() {
 		console.log('unloading obsidian-color-folder');
