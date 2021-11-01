@@ -1,23 +1,30 @@
-# Readme
+# Obsidian Colored Folder
 
-Details about this repository will go here. 
+![](imgs/sidebar.png)
 
-## Installing
+This is a plugin for Obsidian (https://obsidian.md) that provides colorization of folders and items in the Obsidian sidebar. 
 
-Installation instructions to go here. 
+## Using the plugin
 
-## Features
+- Right-click on a folder or item in the sidebar and select `Change Color`. 
+- In the dialog box type in a HEX code e.g. `#FF0000`.
+- Click `Insert` to close the dialog box. 
 
-Features to be listed here. 
+## Settings
 
-## Bugs and Features
+The plugin currently has a setting that allows you to change the behaviour of the colorization. When hierarchical mode is on, a folder's child items are have the same color as their parent. When hierarchical mode is off, a folder's child items have the default color.
 
-The Changelog can be found [here](CHANGELOG.md).
 
-Please log any bugs on Github [here]([[URL]]).
+### Hierarchical Mode - On
+![](imgs/sidebar2.png)
 
-If you have a new language that you've supported using the custom configuration, we'd love to incorporate it into the defaults for the extension. Please log an issue or a pull request on the repo [here](https://github.com/maptz/Maptz.VSCode.Extensions.CustomFolding/).
+### Hierarchical Mode - Off
+![](imgs/sidebar4.png)
 
-## Source Code
+You can toggle hierarchical mode by going to the `Color Folder` settings tab in the Obisidian Options palette. 
 
-The source code is available on GitHub [here]([[URL]]).
+![](imgs/sidebar3.png)
+
+## Repo
+
+See https://github.com/maptz/obsidian-colored-folder
